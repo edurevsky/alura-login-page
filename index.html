@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Alura</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="alura-header">
+    <div class="header-container container">
+      <div class="alura-logo">
+        <a href="#">
+          <img src="./assets/logo/alura-logo.svg" alt="Logo da Alura">
+        </a>
+      </div>
+      <div class="matricula">
+        <p class="sem-acesso">Sem acesso? Estude com a gente!</p>
+        <a class="matricular" href="#">MATRICULE-SE</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="login" class="main-container container">
+      <section id="login-form">
+        <div class="header-login">
+          <h1>Já estuda com a gente?</h1>
+          <small>Faça seu login e boa aula!</small>
+        </div>
+        <form action="#">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email"/>
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha" required="required">
+          <button class="btn btn-login" type="submit">ENTRAR</button>
+        </form>
+        <div class="social-login">
+          <p>Ou entrar com:</p>
+          <div class="social-login-btn">
+            <button type="button" class="btn btn-facebook">FACEBOOK</button>
+            <button type="button" class="btn btn-google">GOOGLE</button>
+          </div>
+        </div>
+        <div class="esqueci-senha">
+          <a href="#">Esqueci minha senha</a>
+        </div>
+      </section>
+      <aside class="nao-registrado">
+        <div class="nao-registrado-header">
+          <h2>Ainda não conhece a Alura?</h2>
+          <small>Conheça nossas escolas e cursos:</small>
+        </div>
+        <div class="escolas">
+          <div class="escola programacao">
+            <div class="nome-escola">
+              <a href="#" class="link" target="_blank">Programação</a>
+            </div>
+            <div class="cursos">
+              <p>
+                <a href="#" class="link">Lógica de programação</a>,
+                <a href="#" class="link">Python</a>,
+                <a href="#" class="link">Quality assurance</a> e
+                <a href="#" class="link">mais...</a>
+              </p>
+            </div>
+          </div>
+          <div class="escola frontend">
+            <div class="nome-escola">
+              <a href="#" class="link" target="_blank">Front-End</a>
+            </div>
+            <div class="cursos">
+              <p>
+                <a href="#" class="link">HTML e CSS</a>,
+                <a href="#" class="link">React</a>,
+                <a href="#" class="link">Angular</a> e
+                <a href="#" class="link">mais...</a>
+              </p>
+            </div>
+          </div>
+          <div class="escola datascience">
+            <div class="nome-escola">
+              <a href="#" class="link" target="_blank">Data Science</a>
+            </div>
+            <div class="cursos">
+              <p>
+                <a href="#" class="link">SQL</a>,
+                <a href="#" class="link">Banco de Dados</a>,
+                <a href="#" class="link">Engenharia de Dados</a> e
+                <a href="#" class="link">mais...</a>
+              </p>
+            </div>
+          </div>
+          <div class="escola devops">
+            <div class="nome-escola">
+              <a href="#" class="link" target="_blank">Devops</a>
+            </div>
+            <div class="cursos">
+              <p>
+                <a href="#" class="link">Linux</a>,
+                <a href="#" class="link">Google Cloud</a>,
+                <a href="#" class="link">Azure</a> e
+                <a href="#" class="link">mais...</a>
+              </p>
+            </div>
+          </div>
+          <div class="escola uxdesign">
+            <div class="nome-escola">
+              <a href="#" class="link" target="_blank">Ux & Design</a>
+            </div>
+            <div class="cursos">
+              <p>
+                <a href="#" class="link">UI Design</a>,
+                <a href="#" class="link">Design System</a>,
+                <a href="#" class="link">UX Writing</a> e
+                <a href="#" class="link">mais...</a>
+              </p>
+            </div>
+          </div>
+          <div class="escola mobile">
+            <div class="nome-escola">
+              <a href="#" class="link" target="_blank">Mobile</a>
+            </div>
+            <div class="cursos">
+              <p>
+                <a href="#" class="link">React Native</a>,
+                <a href="#" class="link">Flutter</a>,
+                <a href="#" class="link">Android</a> e
+                <a href="#" class="link">mais...</a>
+              </p>
+            </div>
+          </div>
+          <div class="escola inovacaoegestao">
+            <div class="nome-escola">
+              <a href="#" class="link" target="_blank">Inovação & Gestão</a>
+            </div>
+            <div class="cursos">
+              <p>
+                <a href="#" class="link">Métodos Ágeis</a>,
+                <a href="#" class="link">Ensino e Aprendizado</a>,
+                <a href="#" class="link">Marketing</a> e
+                <a href="#" class="link">mais...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+    <section id="matricular-se">
+      <div class="fazer-matricula">
+        <div class="fazer-matricula-header">
+          <h3>Ainda não estuda com a gente?</h3>
+          <p>Matrícule-se agora!</p>
+        </div>
+        <a href="#">FAZER MATRÍCULA</a>
+      </div>
+    </section>
+  </main>
+  <div class="qqisso"></div>
+  <footer>
+    <section id="rodape" class="container">
+      <div id="logo-footer">
+        <img class="alura-logo" src="./assets/logo/alura-logo.svg" alt="Logo da Alura">
+      </div>
+      <section id="links">
+        <section id="links-alura">
+          <ul>
+            <li><a href="#" target="_blank">Sobre</a></li>
+            <li><a href="#" target="_blank">Dúvidas</a></li>
+            <li><a href="#" target="_blank">Blog</a></li>
+          </ul>
+        </section>
+        <section id="links-alura-social">
+          <ul>
+            <li><a href="#" target="_blank">YouTube</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">hipsters.tech</a></li>
+          </ul>
+        </section>
+      </section>
+    </section>
+  </footer>
+</body>
+</html>
